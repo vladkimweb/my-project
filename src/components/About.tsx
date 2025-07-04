@@ -26,6 +26,8 @@ export default function About() {
               <Image
                 src="/vladislavkim.jpeg"
                 alt="Владислав Ким"
+                width={400}
+                height={500}
                 className="object-cover w-full h-auto"
               />
               <div className="absolute -bottom-4 -right-4 w-full h-full bg-indigo-100 z-[-1] rounded-xl"></div>
