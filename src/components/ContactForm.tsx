@@ -18,11 +18,11 @@ export default function ContactForm() {
   }
 
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 lg:pt-20 pb-55">
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 text-sm text-gray-500">
           <p>
-            <Link href="/" className="hover:underline text-indigo-600">Главная</Link> / <span className="text-gray-900 font-medium">Контакты</span>
+            <Link href="/" className="hover:underline text-indigo-600">Главная</Link> / <span className="text-gray-800 font-medium">Контакты</span>
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-5">
@@ -30,16 +30,16 @@ export default function ContactForm() {
             <h2 className="text-6xl font-bold text-gray-900 mb-6">Контакты</h2>
 
             <div className="grid grid-cols-2 gap-4 mb-8 text-sm text-gray-700 underline underline-offset-4">
-              <Link href="https://t.me/yourusername" target="_blank" rel="noopener noreferrer">
+              <Link href="https://t.me/kim_ladislao" target="_blank" rel="noopener noreferrer">
                 Telegram
               </Link>
-              <Link href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer">
+              <Link href="https://wa.me/+8201039301828" target="_blank" rel="noopener noreferrer">
                 Whatsapp
               </Link>
-              <Link href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.facebook.com/profile.php?id=100092400543588" target="_blank" rel="noopener noreferrer">
                 Facebook
               </Link>
-              <Link href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.instagram.com/vladisflow?igsh=MTFqM2Rzdmd2Mmk2aw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
                 Instagram
               </Link>
             </div>
@@ -66,7 +66,7 @@ export default function ContactForm() {
 
             {/* Телефон */}
             <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+              <label htmlFor="phone" className="block font-medium text-gray-700 mb-1">
                 Телефон<span className="text-red-500">*</span>
               </label>
               <input
@@ -81,7 +81,7 @@ export default function ContactForm() {
 
             {/* Сообщение */}
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+              <label htmlFor="message" className="block font-medium text-gray-700 mb-1">
                 Сообщение
               </label>
               <textarea

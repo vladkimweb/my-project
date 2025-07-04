@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-between items-center">
         <p>&copy; {new Date().getFullYear()} Владислав Ким — Веб-дизайн и разработка</p>
         <div className="flex space-x-4">
-          <Link href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer">
+          <Link href="https://wa.me/+8201039301828" target="_blank" rel="noopener noreferrer">
             WhatsApp
           </Link>
-          <Link href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.facebook.com/profile.php?id=100092400543588" target="_blank" rel="noopener noreferrer">
             Facebook
           </Link>
         </div>
