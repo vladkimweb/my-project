@@ -30,18 +30,18 @@ export default function ContactForm() {
             <h2 className="text-6xl font-bold text-gray-900 mb-6">Контакты</h2>
 
             <div className="grid grid-cols-2 gap-4 mb-8 text-sm text-gray-700 underline underline-offset-4">
-              <Link href="https://t.me/kim_ladislao" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/kim_ladislao" target="_blank" rel="noopener noreferrer">
                 Telegram
-              </Link>
-              <Link href="https://wa.me/+8201039301828" target="_blank" rel="noopener noreferrer">
+              </a>
+              <a href="https://wa.me/+8201039301828" target="_blank" rel="noopener noreferrer">
                 Whatsapp
-              </Link>
-              <Link href="https://www.facebook.com/profile.php?id=100092400543588" target="_blank" rel="noopener noreferrer">
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100092400543588" target="_blank" rel="noopener noreferrer">
                 Facebook
-              </Link>
-              <Link href="https://www.instagram.com/vladisflow?igsh=MTFqM2Rzdmd2Mmk2aw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+              </a>
+              <a href="https://www.instagram.com/vladisflow?igsh=MTFqM2Rzdmd2Mmk2aw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
                 Instagram
-              </Link>
+              </a>
             </div>
           </div>
 
